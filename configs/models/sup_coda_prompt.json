@@ -1,0 +1,20 @@
+{
+    "model": "sup_coda_prompt",
+    "backbone": "vit_base_patch16_224_sup_coda_prompt",
+    
+    "init_lr": 0.001,
+    "weight_decay": 0,
+    "min_lr": 1e-5,
+    "optimizer": "adam",
+    "scheduler": "constant",
+    "reinit_optimizer": true,
+
+    "pretrained": true,
+    "drop": 0.0,
+    "drop_path": 0.0,
+
+
+    "prompt_param": [100, 8.0, 0.0],
+
+    "freeze": ["backbone"]
+}

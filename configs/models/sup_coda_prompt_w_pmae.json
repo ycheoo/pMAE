@@ -1,0 +1,29 @@
+{
+    "model": "sup_coda_prompt_w_pmae",
+    "backbone": "vit_base_patch16_224_sup_coda_prompt",
+    
+    "init_lr": 0.001,
+    "weight_decay": 0,
+    "min_lr": 1e-5,
+    "optimizer": "adam",
+    "scheduler": "constant",
+    "reinit_optimizer": true,
+
+    "pretrained": true,
+    "drop": 0.0,
+    "drop_path": 0.0,
+
+    "prompt_param": [100, 8.0, 0.0],
+
+    "freeze": ["backbone", "pmae.backbone"],
+
+    "w_pmae": true,
+    "pmae_backbone": "vit_base_patch16_224_sup_pmae",
+
+    "server_init_lr": 0.001,
+    "server_weight_decay": 0,
+    "server_tuned_epoch": 5,
+
+    "lamda": 1,
+    "upload_recon": 4
+}

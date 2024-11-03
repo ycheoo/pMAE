@@ -1,0 +1,12 @@
+{
+    "dataset": "cub_T20_beta5e-1",
+    "batch_size": 128,
+    "tuned_epoch": 5,
+    "communication_epoch": 200,
+    "client_num": 10,
+    "online_ratio": 1,
+    "beta": 0.5,
+    "shuffle": true,
+    "init_class": 10,
+    "inc_class": 10
+}
