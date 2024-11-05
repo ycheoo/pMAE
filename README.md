@@ -4,9 +4,9 @@
   <img src="./images/overview.png" width="800px">
 </p>
 
-## 1. Introduction
+## Introduction
 
-This repository contains the official source code for the paper Masked Autoencoders are Parameter-Efficient Federated Continual Learners.
+This repository contains the official source code for the paper [Masked Autoencoders are Parameter-Efficient Federated Continual Learners](https://arxiv.org/abs/2411.01916).
 
 ## Requirements
 
@@ -39,7 +39,7 @@ To ensure smooth execution of the code, we recommend setting up a dedicated envi
 ImageNet-R and CUB-200 dataset can be downloaded from the link provided in [LAMDA-PILOT](https://github.com/sun-hailong/LAMDA-PILOT). Please specify the folder of your dataset in `src/utils/conf.py`.
 
 ## Checkpoints
-Please download pre-trained MAE models from [Sup](https://drive.google.com/file/d/1pkykLQgnvguDzqPnaA-CGwi7P-GESZWE/view?usp=sharing) and [iBOT](https://drive.google.com/file/d/1IjJQ1yAtqsjyj6Zz1IEM86a75Ddij-op/view?usp=sharing) and then put the pre-trained models to the folder specified in `src/utils/conf.py`.
+Please download pre-trained MAE models from the [Releases](https://github.com/ycheoo/pMAE/releases/tag/checkpoints) and then put the pre-trained models to the folder specified in `src/utils/conf.py`.
 
 ## Experiments
 
