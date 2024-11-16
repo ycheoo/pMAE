@@ -41,6 +41,8 @@ ImageNet-R and CUB-200 dataset can be downloaded from the link provided in [LAMD
 ## Checkpoints
 Please download pre-trained MAE models from the [Releases](https://github.com/ycheoo/pMAE/releases/tag/checkpoints) and then put the pre-trained models to the folder specified in `src/utils/conf.py`.
 
+The frozen pre-trained encoders for the Sup-based MAE and iBOT-based MAE are obtained from [vision_transformer](https://github.com/google-research/vision_transformer) and [ibot](https://github.com/bytedance/ibot), respectively.
+
 ## Experiments
 
 Set the `[DATASET]` and `[MODEL]` options using the filenames of the .json files in the configs folder. If the selected model includes pMAE, set the `[METHOD]` to pmae; otherwise, set it to fedavg.
