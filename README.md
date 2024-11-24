@@ -7,6 +7,14 @@
 ## Introduction
 
 This repository contains the official source code for the paper [Masked Autoencoders are Parameter-Efficient Federated Continual Learners](https://arxiv.org/abs/2411.01916).
+```
+@article{he2024pmae,
+  title   = {Masked Autoencoders are Parameter-Efficient Federated Continual Learners},
+  author  = {Yuchen He and Xiangfeng Wang},
+  year    = {2024},
+  journal = {arXiv preprint arXiv:2411.01916}
+}
+```
 
 ## Requirements
 
