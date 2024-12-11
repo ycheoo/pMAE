@@ -77,6 +77,32 @@ python src/main_fcl.py --dataset cub_T20_beta5e-1 --model sup_coda_prompt --meth
 python src/main_fcl.py --dataset cub_T20_beta5e-1 --model sup_coda_prompt_w_pmae --method pmae --device 0
 ```
 
+## Metrics
+
+Run the `results_processor.py` script after completing a specific experiment.
+
+```bash
+python results_processor.py --dataset [DATASET] --model [MODEL]
+```
+
+### Examples:
+
+```bash
+python results_processor.py --dataset cub_T20_beta5e-1 --model sup_pmae
+```
+
+---
+
+```bash
+python results_processor.py --dataset cub_T20_beta5e-1 --model sup_coda_prompt
+```
+
+---
+
+```bash
+python results_processor.py --dataset cub_T20_beta5e-1 --model sup_coda_prompt_w_pmae
+```
+
 ## Acknowledgments
 
 This repo is heavily based on [LAMDA-PILOT](https://github.com/sun-hailong/LAMDA-PILOT), [MarsFL](https://github.com/WenkeHuang/MarsFL), and [mae](https://github.com/facebookresearch/mae), many thanks.
